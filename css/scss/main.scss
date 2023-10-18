@@ -382,6 +382,7 @@ body {
                     @media (max-width: 380px) {
                         padding: 0 5px;
                     }
+
                     &::after {
                         color: #D0FF6A;
                         text-align: center;
@@ -943,17 +944,13 @@ body {
             justify-content: center;
             gap: 20px;
 
-            @media (min-width: 1025px) {
-                gap: 70px;
-            }
-
             .c-organizers__item {
                 flex: 0 0 30%;
                 display: flex;
                 align-items: center;
 
                 @media (max-width: 700px) {
-                    flex: none;
+                    flex: 0 0 70%
                 }
 
                 @media (min-width: 800px) {
@@ -1281,6 +1278,14 @@ body {
                 }
             }
 
+            .c-grid__white--hover {
+                color: #FFF;
+
+                &:hover {
+                    color: #D0FF6A
+                }
+            }
+
             .c-grid__content {
                 display: flex;
                 justify-content: end;
@@ -1405,6 +1410,7 @@ body {
         .c-info__container {
             display: flex;
             justify-content: space-evenly;
+
             @media (max-width: 380px) {
                 flex-direction: column;
                 gap: 20px;
