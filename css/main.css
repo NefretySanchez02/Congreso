@@ -45,7 +45,7 @@ body {
   width: 60px; }
   @media (min-width: 1025px) {
     .c-theme .c-header .navbar .c-header__logo {
-      width: 130px; } }
+      width: 150px; } }
   .c-theme .c-header .navbar .c-header__logo .default-logo {
     display: none; }
     @media (min-width: 1024px) {
@@ -111,7 +111,7 @@ body {
   .c-theme .c-hero .c-hero__txt-content .c-hero__subtitle span {
     font-weight: 800; }
 .c-theme .c-hero .c-hero__txt-content .c-hero__city {
-  color: #439BEB;
+  color: #2C2E9D;
   font-size: 18px;
   font-weight: 500;
   line-height: 20px;
@@ -121,7 +121,7 @@ body {
       font-size: 24px;
       line-height: 28px; } }
 .c-theme .c-hero .c-hero__txt-content .c-hero__date {
-  color: #439BEB;
+  color: #2C2E9D;
   font-size: 18px;
   font-weight: 900;
   line-height: 20px;
@@ -651,6 +651,9 @@ body {
       @media (min-width: 800px) {
         .c-theme .c-organizers .c-organizers__content .c-organizers__item {
           flex: 1; } }
+      @media (min-width: 800px) {
+        .c-theme .c-organizers .c-organizers__content .c-organizers__item:first-child {
+          flex: 0 0 20%; } }
       .c-theme .c-organizers .c-organizers__content .c-organizers__item img {
         width: 100%;
         object-fit: cover;
@@ -676,7 +679,7 @@ body {
     gap: 20px; }
     @media (min-width: 1025px) {
       .c-theme .c-allies .c-allies__content {
-        gap: 80px; } }
+        gap: 30px; } }
     .c-theme .c-allies .c-allies__content .c-allies__item {
       flex: 0 0 30%;
       display: flex;
@@ -687,6 +690,9 @@ body {
       @media (min-width: 800px) {
         .c-theme .c-allies .c-allies__content .c-allies__item {
           flex: 1; } }
+      @media (min-width: 800px) {
+        .c-theme .c-allies .c-allies__content .c-allies__item:first-child {
+          flex: 0 0 20%; } }
       .c-theme .c-allies .c-allies__content .c-allies__item img {
         width: 100%;
         object-fit: cover;

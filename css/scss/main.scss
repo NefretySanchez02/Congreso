@@ -69,7 +69,7 @@ body {
                 width: 60px;
 
                 @media (min-width: 1025px) {
-                    width: 130px;
+                    width: 150px;
                 }
 
                 .default-logo {
@@ -179,7 +179,7 @@ body {
             }
 
             .c-hero__city {
-                color: #439BEB;
+                color: #2C2E9D;
                 font-size: 18px;
                 font-weight: 500;
                 line-height: 20px;
@@ -192,7 +192,7 @@ body {
             }
 
             .c-hero__date {
-                color: #439BEB;
+                color: #2C2E9D;
                 font-size: 18px;
                 font-weight: 900;
                 line-height: 20px;
@@ -957,6 +957,11 @@ body {
                 @media (min-width: 800px) {
                     flex: 1;
                 }
+                &:first-child{
+                    @media (min-width: 800px) {
+                        flex: 0 0 20%;
+                    }
+                }
 
                 img {
                     width: 100%;
@@ -992,7 +997,7 @@ body {
             gap: 20px;
 
             @media (min-width: 1025px) {
-                gap: 80px;
+                gap: 30px;
             }
 
             .c-allies__item {
@@ -1006,6 +1011,11 @@ body {
 
                 @media (min-width: 800px) {
                     flex: 1;
+                }
+                &:first-child{
+                    @media (min-width: 800px) {
+                        flex: 0 0 20%;
+                    }
                 }
 
                 img {
